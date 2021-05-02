@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="top_wraper">
+      <div class="wraper">
+        <div class="container-fluid">
+          <div class="header">
+            <a href="#default" class="logo">CompanyLogo</a>
+            <div class="menu-list">
+              <a class="active" href="#home">Home</a>
+              <a href="#">Features</a>
+              <a href="#">Compare</a>
+              <a href="#">Pricnig</a>
+              <a href="#">FAQ</a>
+            </div>
+            <div class="header-right">
+              <a class="button" href="#">Purchase Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="container-xl banner">
+          <div class="banner-content">
+            <h1>Find Anybody’s Email Address</h1>
+            <p>Save money and time using the most advanced prospecting tool.</p>
+            <a class="button" href="#">Get 100 Leads For Free!</a>
+            <hr />
+            <div class="our-partners">
+              <a href="#"
+                ><img src="./images/google.png" alt="our partner"
+              /></a>
+              <a href="#"><img src="./images/Uber.png" alt="our partner" /></a>
+              <a href="#"
+                ><img src="./images/airbnb.png" alt="our partner"
+              /></a>
+              <a href="#"><img src="./images/nike.png" alt="our partner" /></a>
+              <a href="#"
+                ><img src="./images/stripe.png" alt="our partner"
+              /></a>
+            </div>
+          </div>
+          <div class="banner-img">
+            <img src="./images/banner_img.png" alt="banner" />
+          </div>
+        </div>
+      </div>
+      <div class="wraper_one">
+        <div class="container-xl banner">
+          <div class="">
+            <img src="./images/emai_finder_banner.PNG" alt="banner" />
+          </div>
+          <div class="banner-content">
+            <button class="btn_secondry"><a href="#">Email Finder</a></button>
+            <h2>Find verified emails on Linkedin</h2>
+            <p>
+              Our Web Extension smartly integrates with your Linkedin or Sales
+              Navigator and provides verified email addresses of your leads in
+              seconds.
+            </p>
+            <ul class="key_features">
+              <li>Only pay for verified emails.</li>
+              <li>Bulk email finder.</li>
+              <li>Real-time and up to date information.</li>
+              <li>Over 1.2 billion people and 200 million company profiles.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="wraper_one wraper_two">
+        <div class="container-xl banner">
+          <div class="banner-content">
+            <button class="btn_secondry"><a href="#">EMAIL VERIFIER</a></button>
+            <h2>Enrich your sheets and databases with verified emails.</h2>
+            <p>
+              The Email Verifier does a complete check of the email address to
+              ensure the deliverability.
+            </p>
+            <ul class="key_features">
+              <li>97% Accuracy.</li>
+              <li>Instant bulk Verification.</li>
+              <li>Catch all detection.</li>
+              <li>Export results in csv.</li>
+            </ul>
+          </div>
+          <div class="email">
+            <div class="img_wraper">
+              <img src="./images/email_verifivation_banner.PNG" alt="banner" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wraper_one wraper_two wraper_features">
+        <div class="container-xl">
+          <button class="btn_secondry"><a href="#">More Features</a></button>
+          <h2>Find out more from our software</h2>
+        </div>
+        <div class="container-xl banner">
+          <div class="features proList">
+            <img src="./images/api_integration.PNG" alt="Prospect List" />
+            <h3>Prospect List</h3>
+            <p>
+              Create and manage unlimted prospect lists. We’ve created powerfull
+              tools to speed up the process while ensuring you build high
+              quality lists.
+            </p>
+          </div>
+          <div class="features apiInt">
+            <img src="./images/api_integration.PNG" alt="API Intergartion" />
+            <h3>API Intergartion</h3>
+            <p>Connect to your workflow using API intergartions.</p>
+          </div>
+          <div class="features intYoC">
+            <img
+              src="./images/api_integration.PNG"
+              alt="integrate to your CRM"
+            />
+            <h3>integrate to your CRM</h3>
+            <p>
+              Drive more qualified prospects and seamlessly transfer them to
+              your CRM.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="wraper_one wraper_two wraper_features campare">
+        <div class="container-xl">
+          <button class="btn_secondry"><a href="#">Compare</a></button>
+          <h2>
+            Our mission is to provide affordable solutions to outreach teams of
+            all sizes.
+          </h2>
+        </div>
+        <div class="container-xl">
+          <div class="tab">
+            <button class="tablinks" onclick="findEmail(event, 'findMail')" id="defaultOpen">Email Finder</button>
+            <button class="tablinks" onclick="verifyEmail(event, 'verifyMail')">Email Verify</button>
+          </div>
+          
+          <div id="findMail" class="tabcontent">
+           <div class="data_wraper">
+            <h4>How many <span>emails</span>  do you need to find?</h4>
+            <div class="data-box">
+              <p><span id="demo"></span></p>
+            </div>
+            <div class="slidecontainer">
+              <input type="range" min="1" max="3000" value="60" class="slider" id="myRange">
+            </div>
+           </div>
+          </div>
+          
+          <div id="verifyMail" class="tabcontent">
+           <div class="data_wraper">
+            <h4>How many <span>emails</span> do you need to verify?</h4>
+            <div class="data-box">
+              <p><span id="demo1"></span></p>
+              <div class="slidecontainer">
+                <input type="range" min="1" max="3000" value="50" class="slider" id="verifyMe">
+              </div>
+            </div> 
+           </div>
+          </div>
+        </div>
+        <div class="container-xl">
+          <div class="aheto-list--outsourceo-table-links">
+            <div class="aheto-list--row">
+              <div class="aheto-list--column">
+                <h5>HR Coordinator</h5>
+              </div>
+
+              <div class="aheto-list--column">
+                <div class="aheto-banner-slider__links">
+                  <h5>$79</h5>
+                </div>
+              </div>
+            </div>
+            <div class="aheto-list--row">
+              <div class="aheto-list--column">
+                <h5>HR Coordinator</h5>
+              </div>
+
+              <div class="aheto-list--column">
+                <div class="aheto-banner-slider__links">
+                  <h5>$79</h5>
+                </div>
+              </div>
+            </div>
+            <div class="aheto-list--row">
+              <div class="aheto-list--column">
+                <h5>HR Coordinator</h5>
+              </div>
+
+              <div class="aheto-list--column">
+                <div class="aheto-banner-slider__links">
+                  <h5>$79</h5>
+                </div>
+              </div>
+            </div>
+            <div class="aheto-list--row">
+              <div class="aheto-list--column">
+                <h5>HR Coordinator</h5>
+              </div>
+
+              <div class="aheto-list--column">
+                <div class="aheto-banner-slider__links">
+                  <h5>$79</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wraper_one bg_white">
+        <div class="container-xl banner">
+          <div class="">
+            <img src="./images/portfolio.png" alt="banner" />
+          </div>
+          <div class="banner-content">
+            <h3>
+              "It is really refreshing to work with the software which is truly
+              helpful in the client's references."
+            </h3>
+            <h6>Rebeca</h6>
+            <span>Head</span>
+          </div>
+        </div>
+      </div>
+      <div class="wraper_one wraper_two wraper_features our_partner bg_gray">
+        <div class="container-xl">
+          <button class="btn_secondry"><a href="#">OUR PARTNERS</a></button>
+          <h2>Over 1500 teams use our software</h2>
+          <p>
+            Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+            impedit quo minus id quod maxime placeat facere possimus, omnis
+            voluptas assumenda est.
+          </p>
+        </div>
+        <div class="container-xl">
+          <img src="/images/our_partner.PNG" alt="our partner">
+        </div>
+      </div>
+
+      <div class="wraper_one wraper_two wraper_features pricing_plan">
+        <div class="container-xl">
+          <button class="btn_secondry"><a href="#">PRICING PLANS </a></button>
+          <h2>Pricnig that suits your needs</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus eos vero nobis in sunt repellendus recusandae autem aliquid !</p>
+        </div>
+        <div class="container-xl banner">
+          <div class="features proList">
+            <p>5000 Credits </p>
+           <p>Chrome Extension</p>
+           <p> Email Finder and Email Verifier</p>
+           <p>Unlimited prospect lists</p>
+           <p>Unlimted Users</p>
+           <p>Priority support</p>
+          </div>
+          <div class="features apiInt">
+            <p>5000 Credits </p>
+           <p>Chrome Extension</p>
+           <p> Email Finder and Email Verifier</p>
+           <p>Unlimited prospect lists</p>
+           <p>Unlimted Users</p>
+           <p>Priority support</p>
+          </div>
+          <div class="features intYoC">
+            <p>5000 Credits </p>
+            <p>Chrome Extension</p>
+            <p> Email Finder and Email Verifier</p>
+            <p>Unlimited prospect lists</p>
+            <p>Unlimted Users</p>
+            <p>Priority support</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="wraper_one wraper_two wraper_features campare bg_gray all_feature">
+        <div class="container-xl">
+          <h2> Still not sure?</h2>
+          <button class="btn_secondry"><a href="#">Try all the features for 14 days for free &nbsp;&nbsp;&#8594;</a></button>    
+          
+          <h3>How Credits work?</h3>
+           
+          <h3>Use 2 Credits to find an Email. </h3> 
+          
+          <h3> Use 1 Credit to verify an email</h3>   
+        </div>
+      </div>
+
+      <div class="wraper_one wraper_two wraper_features campare faq">
+        <div class="container-xl">
+          <button class="btn_secondry"><a href="#">FAQ</a></button>
+          <h2>Customers frequently ask </h2>
+        </div>
+        <div class="container-xl questions">
+         <div class="fa fa_first">
+            <div class="faq_wraper first">
+              <button class="accordion active">How does SAASworld make money?</button>
+              <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
+            
+
+            <div class="faq_wraper">
+              <button class="accordion">How does SAASworld make money?</button>
+              <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
+
+            <div class="faq_wraper">
+              <button class="accordion">How does SAASworld make money?</button>
+              <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
+          </div>
+          <div class="fa">
+            <div class="faq_wraper">
+              <button class="accordion">How does SAASworld make money?</button>
+              <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
+            
+
+            <div class="faq_wraper">
+              <button class="accordion">How does SAASworld make money?</button>
+              <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
+
+            <div class="faq_wraper">
+              <button class="accordion">How does SAASworld make money?</button>
+              <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+      <div class="wraper_one pricing_plan footer">
+        <div class="container-xl">
+          <div class="footerColum address">
+            <h2><a href="index.html">CompanyLogo</a></h2>
+            <address>
+              Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+              Visit us at:<br>
+              Example.com<br>
+              Box 564, Disneyland<br>
+              USA
+            </address>
+          </div>
+          <div class="footerColum services">
+            <h2>services</h2>
+              <a href="#">Home</a>
+              <a href="#">Features</a>
+              <a href="#">Compare</a>
+              <a href="#">Pricnig</a>
+              <a href="#">FAQ</a>
+          </div>
+        </div>
+      </div>
+   
+  <script src="./script.js"></script>
+  </body>
+</html>
